@@ -16,6 +16,8 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "bootstrap-jquery-slim": "^4.1.1-1",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
     "jquery.js": "0.0.2-security",
     "popper.js": "^1.16.1"
