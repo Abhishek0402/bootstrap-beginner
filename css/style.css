@@ -52,3 +52,19 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal__bg {
+  background-color: #512DA8; }
+
+.modal__text {
+  color: #fff; }
+  .modal__text--font {
+    color: #D1C4E9; }
+    .modal__text--font::hover {
+      color: #fff; }
+
+.modal__form--bg {
+  background-color: #D1C4E9; }
+
+.close::hover {
+  color: #fff; }

@@ -74,3 +74,25 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+.modal{
+    &__bg{
+        background-color: $background-dark;
+    }
+    &__text{
+        color: #fff;
+         &--font{
+            color: $background-pale;
+             &::hover{
+                 color: #fff;
+             }
+        }
+    }
+    &__form--bg{
+        background-color: $background-pale;
+    }
+}
+
+.close::hover{
+    color: #fff;
+}
