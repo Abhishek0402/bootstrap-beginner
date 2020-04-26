@@ -12,9 +12,9 @@ module.exports = function (grunt) {
 
     // Define the configuration for all the tasks
     grunt.initConfig({
-        sass: {
-            dist: {
-                files: {
+        sass: { //task
+            dist: {  //target
+                files: { //target-options
                     'css/styles.css': 'css/styles.scss'
                 }
             }

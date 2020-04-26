@@ -18,7 +18,9 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "browser-sync": "^2.26.7",
         "cssmin": "^0.4.3",
+        "del": "^5.1.0",
         "grunt-browser-sync": "^2.2.0",
         "grunt-contrib-clean": "^1.1.0",
         "grunt-contrib-concat": "^1.0.1",
@@ -31,6 +33,15 @@
         "grunt-filerev": "^2.3.1",
         "grunt-sass": "^2.1.0",
         "grunt-usemin": "^3.1.1",
+        "gulp": "^4.0.2",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-flatmap": "^1.0.2",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-rev": "^9.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-uglify": "^3.0.2",
+        "gulp-usemin": "^0.3.30",
         "htmlmin": "0.0.7",
         "jit-grunt": "^0.10.0",
         "lite-server": "^2.3.0",
@@ -43,13 +54,17 @@
         "usemin-cli": "^0.5.1"
     },
     "dependencies": {
+        "4": "0.0.0",
         "bootstrap": "^4.4.1",
         "bootstrap-jquery-slim": "^4.1.1-1",
         "bootstrap-social": "^5.1.1",
         "font-awesome": "^4.7.0",
+        "graceful-fs": "^4.2.3",
         "grunt": "^1.1.0",
         "jquery": "^3.4.1",
         "jquery.js": "0.0.2-security",
+        "natives": "^1.1.6",
         "popper.js": "^1.16.1"
-    }
+    },
+    "optionalDependencies": {}
 }
